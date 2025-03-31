@@ -1,42 +1,53 @@
-numpy
-pandas
-langchain
-streamlit
-transformers
-numpy
-beautifulsoup4
-requests
-nltk
-pandas
-pulp
-xgboost
-torch  # PyTorch is often used with Hugging Face Transformers
-scikit-learn
-flask
-vaderSentiment  # For sentiment analysis
-tweepy  # For Twitter API interaction
-plotly
-statsmodels
-fastapi
-uvicorn  # ASGI server for FastAPI
-openai
-matplotlib
-sentencepiece  # Required for some transformer models like DistilBERT
-# Add any other specific libraries you might need for Agentic AI implementations
-# or for interacting with specific platform APIs for distribution.
-# --- Additional Libraries for Agentic AI Implementations ---
-autogen  # From Microsoft, for building multi-agent systems
-semantic-kernel  # From Microsoft, another framework for intelligent agents
-superagi  # Open-source autonomous AI agent framework
-crewai # Framework for orchestrating autonomous AI agents
-memgpt # For adding memory to AI agents
+# Core Data & Computation
+numpy==1.26.*
+pandas==2.2.*
 
-# --- Additional Libraries for Specific Platform APIs for Distribution ---
-# linkedin-v2  # For interacting with the LinkedIn API (you might need to install the specific version you intend to use)
-# facebook-sdk  # For interacting with the Facebook Graph API
-# python-wordpress-xmlrpc  # For interacting with WordPress
-# slack_sdk  # For interacting with the Slack API
-# discord.py  # For interacting with the Discord API
-# bufferapp  # For interacting with the Buffer API (if you use it)
-# mailchimp-marketing # For interacting with the Mailchimp API (if you use it for newsletters)
-# instaloader # For interacting with Instagram (note: unofficial and might break)
+# NLP & Language Models
+langchain==0.1.*
+transformers==4.39.*
+sentencepiece==0.2.*
+nltk==3.8.*
+vaderSentiment==3.3.*
+openai==1.15.*
+
+# Web & API
+streamlit==1.30.*
+flask==3.0.*
+fastapi==0.110.*
+uvicorn==0.29.*
+requests==2.31.*
+beautifulsoup4==4.12.*
+tweepy==4.14.*
+
+# Machine Learning & Optimization
+xgboost==2.0.*
+torch==2.2.*
+scikit-learn==1.4.*
+statsmodels==0.14.*
+pulp==2.8.*
+
+# Visualization
+plotly==5.18.*
+matplotlib==3.9.*
+
+# Agentic AI & Multi-Agent Frameworks
+autogen==0.2.*
+semantic-kernel==0.2.*
+superagi==0.2.*
+crewai==0.1.*
+memgpt==0.1.*
+
+---
+
+pytrends
+networkx
+polars
+faiss
+llama-index
+dash
+orjson
+celery
+ray
+redis
+duckdb
+opentelemetry
