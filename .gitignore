@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.venv/
+env/
+envs/
+*/env/
+*/envs/
+.Python
+_venv
+cenv
+.tox
+*.egg-info
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# Logs and Temp Files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.fuse_hidden*
+*.un~
+*.rn~
+*.orig
+*.rej
+*.patch
+*.out
+*.stackdump
+*.pyupcache
+
+# Data and Configuration
+data/  # If you have a data directory that shouldn't be tracked (e.g., raw datasets)
+*.csv  # Common data file extension
+*.json # Common data file extension
+*.sqlite # Common database file extension
+*.db   # Another common database file extension
+config.ini # Example configuration file
+secrets.ini # Example file for sensitive information
+.env    # If you use dotenv for environment variables
+
+# IDE Specific
+.idea/    # IntelliJ IDEA
+.vscode/  # Visual Studio Code
+*.project
+*.workspace
+*.settings
+*.iml
+out/
+build/
+dist/
+
+# Streamlit
+.streamlit/cache/
+.streamlit/config.toml
+
+# Hugging Face Cache
+.cache/huggingface/
+
+# Other
+__pycache__
+*.egg
+*.whl
+.coverage
+.coverage.*
+*.mo
+*.pot
+*.pth
+*.doctrees
+.scrapy
+
+# Jupyter Notebook (optional, if you are using notebooks and want to ignore checkpoints)
+.ipynb_checkpoints/
+
+# Packages (if you are building any frontend components with Node.js)
+node_modules/
